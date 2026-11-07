@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>नागेन्द्र संग शिवानी | शुभ विवाह</title>
+<link href="https://fonts.googleapis.com/css2?family=Tiro+Devanagari+Hindi&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<canvas id="fx"></canvas>
+
+<main id="stage">
+  <section id="s1">
+    <div class="reveal">
+      <div id="gan"></div>
+      <h2 id="t1">श्री गणेशाय नमः</h2>
+      <h1 id="t2">शुभ विवाह</h1>
+    </div>
+    <div class="door doorL"></div>
+    <div class="door doorR"></div>
+  </section>
+
+  <section id="cards">
+    <div class="card" id="c1"><img src="assets/images/photo1.jpg" alt="Wedding cover"><span class="shine"></span></div>
+    <div class="card" id="c2"><img src="assets/images/photo2.jpg" alt="Wedding card front"><span class="shine"></span></div>
+    <div class="card" id="c3"><img src="assets/images/photo3.jpg" alt="Wedding invitation"><span class="shine"></span></div>
+    <div class="card" id="c4"><img src="assets/images/photo4.jpg" alt="Wedding programme">
+      <i class="hl" style="top:30.5%"></i><i class="hl" style="top:39.3%"></i><span class="shine"></span></div>
+  </section>
+
+  <section id="fin">
+    <div id="names">नागेन्द्र <span class="heart">❤️</span> शिवानी</div>
+    <p id="inv">आपकी गरिमामयी उपस्थिति सादर प्रार्थनीय है</p>
+  </section>
+</main>
+
+<div id="start"><div class="ring"></div><button id="go">✦ Open Invitation ✦</button><small>Tap to begin with sound</small></div>
+
+<div id="ui">
+  <button id="mute" title="Sound">🔊</button>
+  <button id="full" title="Full screen">⛶</button>
+  <button id="replay" title="Replay">↻</button>
+</div>
+<audio id="bgm" src="assets/audio/music.mp3" loop preload="auto"></audio>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
